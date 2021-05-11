@@ -1,0 +1,83 @@
+body {
+    margin: 0 auto;
+	background-image: url("../images/wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+.container {
+    text-align: center;
+    width: 500px;
+	height: 450px;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 160px;
+}
+
+.container img {
+    width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+input[type=text], input[type=password] {
+    margin-top: 30px;
+    height: 55px;
+	width: 350px;
+    font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+    border-radius: 25px;
+    outline: none;
+
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border-color: lightskyblue;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 30px lightskyblue;
+    outline: 0 none;
+}
+
+.btn-login {
+    font-size: 22px;
+    padding: 15px 50px;
+	background-color: #368ee0;
+	color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    transition-duration: 0.5s;
+    background-color: #2b72b3;
+}
+
+.btn-login:active {
+    opacity: 0.50;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+}
+
+a {
+    color: #368ee0;
+    text-decoration: none;
+}
+
+a:hover {
+    transition-duration: 0.5s;
+    color: #2b72b3;
+}
+
+a:active {
+    opacity: 0.50;
+}
