@@ -3,7 +3,7 @@
 define('dbhost', 'localhost');
 define('dbuser', 'root');
 define('dbpwd', 'root');
-define('dbname', 'covid_vaccine');
+define('dbname', 'accountinfo');
 
 /* Attempt to connect to MySQL database */
 $mysqli = new mysqli(dbhost, dbuser, dbpwd, dbname);
