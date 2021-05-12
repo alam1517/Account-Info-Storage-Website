@@ -28,7 +28,8 @@
             </form>
         </div>
     </div>
-
+    
+    <!-- toggle buttons (Login and Register) script -->
     <script>
         var x = document.getElementById("login");
         var y = document.getElementById("register");
