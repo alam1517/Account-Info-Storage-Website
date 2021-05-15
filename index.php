@@ -74,12 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <div class="hero">
-        <div class="popup" id="popup1">
-            <p>This is a popup!</p>
-            <p>Overlay uses <b>box-shadow</b>.</p>
-            <p>(Doesn't block elements on background)</p>
-            <a href="#" onclick="hide('popup1')">Ok!</a>
-        </div>
+        <div class="toast toast-visible">Sample toast message</div>
         <div class="form-box">
             <img src="images/login-logo.png"/>
             <div class="button-box">

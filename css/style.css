@@ -12,6 +12,32 @@
     position: absolute;
 }
 
+.toast {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 250px;
+    padding: 15px;
+    background: #cccccc;
+    color: #333333;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: top 0.2s, visibility 0.2s, opacity 0.2s;  
+}
+
+.toast-visible {
+    top: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
 .form-box {
     text-align: center;
     width: 500px;
